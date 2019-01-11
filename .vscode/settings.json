@@ -1,0 +1,32 @@
+
+
+{
+  "editor.fontSize": 17,
+  //"vsicons.presets.angular":true,
+
+  "cucumberautocomplete.steps": [
+    "e2e/src/features/*.js",
+  ],
+  "cucumberautocomplete.syncfeatures": "e2e/src/features/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumberautocomplete.customParameters": [
+    {
+      "parameter": "{ab}",
+      "value": "(a|b)"
+    },
+    {
+      "parameter":/\{a.*\
+      }/,
+      "value": "a"
+    },
+  ],
+  "cucumberautocomplete.onTypeFormat": true,
+  "editor.quickSuggestions": {
+    "comments": true,
+    "strings": true,
+    "other": true
+  },
+  "cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then)\\("
+}
